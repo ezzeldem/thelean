@@ -957,6 +957,24 @@ $gray-color3: #e4e4e4;
             }
             .nice-select {
                 border-radius: 50px;
+                &:after{
+                    height: 12px;
+                    margin-top: -5px;
+                    right: 35px;
+                    top: 45%;
+                    width: 12px;
+                
+                }
+                span{
+                    font-weight: 400;
+
+                    html[lang="en"] & {
+                        font-family: "Roboto", sans-serif;
+                    }
+                    html[lang="ar"] & {
+                        font-family: "Tajawal", sans-serif;
+                    }
+                }
             }
             .nice-select,
             .list {

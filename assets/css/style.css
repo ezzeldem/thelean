@@ -808,6 +808,22 @@ html[lang="ar"] .footer-section .right-box {
 .footer-section .footer-form-box .footer-form .nice-select {
   border-radius: 50px;
 }
+.footer-section .footer-form-box .footer-form .nice-select:after {
+  height: 12px;
+  margin-top: -5px;
+  right: 35px;
+  top: 45%;
+  width: 12px;
+}
+.footer-section .footer-form-box .footer-form .nice-select span {
+  font-weight: 400;
+}
+html[lang="en"] .footer-section .footer-form-box .footer-form .nice-select span {
+  font-family: "Roboto", sans-serif;
+}
+html[lang="ar"] .footer-section .footer-form-box .footer-form .nice-select span {
+  font-family: "Tajawal", sans-serif;
+}
 .footer-section .footer-form-box .footer-form .nice-select,
 .footer-section .footer-form-box .footer-form .list {
   width: 100%;
