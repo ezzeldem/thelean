@@ -659,6 +659,7 @@ $gray-color3: #e4e4e4;
             background-color: rgba($blueDarck-color, 1);
             display: inline-block;
             margin: 0 0 60px;
+            font-size: 20px;
             &:after {
                 content: "";
                 bottom: -28px;
@@ -1117,8 +1118,12 @@ $gray-color3: #e4e4e4;
                 margin: 10px 0;
                 width: 100%;
             }
+            .boxwhat-title{
+                font-size: 12px;
+            }
         }
     }
+    
 
     .portfolio-section {
         .portfolio-box {

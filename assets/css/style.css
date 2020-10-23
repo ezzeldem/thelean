@@ -557,6 +557,7 @@ html[lang="ar"] .nav-bar .nav-ul .navBar-ul li a:after {
   background-color: #162f42;
   display: inline-block;
   margin: 0 0 60px;
+  font-size: 20px;
 }
 .whatWeDo-section .what-box .boxwhat-title:after {
   content: "";
@@ -940,6 +941,9 @@ html[lang="ar"] .footer-section .right-box {
   .whatWeDo-section .what-box .prag {
     margin: 10px 0;
     width: 100%;
+  }
+  .whatWeDo-section .what-box .boxwhat-title {
+    font-size: 12px;
   }
 
   .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg {
