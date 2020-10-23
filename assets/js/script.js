@@ -57,4 +57,7 @@ $(document).ready(function(){
     $(".select-box").niceSelect();
 
 
+    // aos
+    AOS.init();
+
 });
