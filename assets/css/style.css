@@ -643,7 +643,7 @@ html[lang="ar"] .whatWeDo-section .what-box .boxwhat-title:after {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 600;
   padding: 14px 10px;
   border-radius: 10px;
@@ -951,7 +951,7 @@ html[lang="ar"] .footer-section .right-box {
     width: 134px;
   }
   .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg .project-title {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .why-us-section .why-box .why-box-content .why-title {
