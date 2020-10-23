@@ -807,7 +807,8 @@ html[lang="ar"] .footer-section .right-box {
 .footer-section .footer-form-box .footer-form .nice-select {
   border-radius: 50px;
 }
-.footer-section .footer-form-box .footer-form .nice-select, .footer-section .footer-form-box .footer-form .list {
+.footer-section .footer-form-box .footer-form .nice-select,
+.footer-section .footer-form-box .footer-form .list {
   width: 100%;
   background-color: #e4e4e4;
 }
@@ -893,7 +894,8 @@ html[lang="ar"] .footer-section .right-box {
 }
 
 @media (max-width: 772px) {
-  .section-title1 .title, .section-title3 .title {
+  .section-title1 .title,
+  .section-title3 .title {
     font-size: 42px;
   }
 
@@ -901,6 +903,9 @@ html[lang="ar"] .footer-section .right-box {
     font-size: 14px;
   }
 
+  .intro-section .intro-slider .circle-arrow {
+    display: none;
+  }
   .intro-section .intro-slider .slick-dots {
     bottom: 14px;
     opacity: 1;

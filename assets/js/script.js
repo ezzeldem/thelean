@@ -47,14 +47,7 @@ $(document).ready(function(){
         autoplay:false,
         dots: true, 
         arrows:true, 
-        responsive: [{
-            breakpoint: 772,
-            settings: {
-                arrows:false, 
-            }
-        },
 
-    ]
 });
 
 

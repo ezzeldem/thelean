@@ -30,10 +30,10 @@ $balck-color: #000;
 $white-color: #fff;
 $blueSky-color: #63c5ea;
 $blueDarck-color: #162f42;
-$blueDarck-color2: #67869A;
+$blueDarck-color2: #67869a;
 $gray-color: #a4a4a4;
 $gray-color2: #636363;
-$gray-color3: #E4E4E4;
+$gray-color3: #e4e4e4;
 
 // var
 
@@ -812,10 +812,9 @@ $gray-color3: #E4E4E4;
 
 // end why-us-section
 
-
 // start clients-section
 
-.clients-section{
+.clients-section {
     position: relative;
     @extend.back-setting;
     background-image: url("../img/Group\ 2.png");
@@ -833,39 +832,38 @@ $gray-color3: #E4E4E4;
         z-index: -1;
     }
 
-    .clients-title-box{
- 
-    width: 76%;
+    .clients-title-box {
+        width: 76%;
         position: relative;
         z-index: 1;
-        .titleclients{
+        .titleclients {
             font-size: 33px;
             color: rgba($blueDarck-color, 1);
             font-weight: 600;
         }
     }
-    .img-clint-box{
+    .img-clint-box {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 200px;
-        img{
+        img {
             max-width: 67%;
         }
-        &.clint-box-1{
-            background-color: rgba($blueDarck-color,1);
+        &.clint-box-1 {
+            background-color: rgba($blueDarck-color, 1);
             z-index: 8888;
             box-shadow: 0 18px 20px rgba($balck-color, 0.3);
         }
-        &.clint-box-2{
-            margin: 20px 0 ;
-            box-shadow: inset 0 30px 21px -14px  rgba($balck-color, 0.3);
-            background-color: rgba($blueSky-color,1);
+        &.clint-box-2 {
+            margin: 20px 0;
+            box-shadow: inset 0 30px 21px -14px rgba($balck-color, 0.3);
+            background-color: rgba($blueSky-color, 1);
         }
-        &.ro1{
+        &.ro1 {
             margin: 30px 0 0;
         }
-        &.ro2{
+        &.ro2 {
             box-shadow: 0 18px 20px rgba($balck-color, 0.3);
         }
     }
@@ -873,59 +871,46 @@ $gray-color3: #E4E4E4;
 
 // end clients-section
 
-
-
-
-
 // start footer-section
 
-.footer-section{
+.footer-section {
     background-color: rgba($blueDarck-color2, 1);
-    .right-box{
+    .right-box {
         padding: 0 10px 0;
         border-right: 1px solid rgba($white-color, 1);
         html[lang="ar"] & {
-            border-right:unset;
+            border-right: unset;
             border-left: 1px solid rgba($white-color, 1);
         }
-        .logo-box{
-            img{
+        .logo-box {
+            img {
                 height: 70px;
             }
         }
 
-        .ul-footer{
-            ul{
-                padding: 20px ;
+        .ul-footer {
+            ul {
+                padding: 20px;
                 text-align: center;
-                li{
+                li {
                     margin: 20px 0;
-                    a{
+                    a {
                         font-size: 20px;
                         font-weight: 400;
                         color: rgba($white-color, 1);
                         @extend.trans-4;
-                        &:hover{
+                        &:hover {
                             color: rgba($blueDarck-color, 1);
                         }
                     }
                 }
             }
         }
-
-
-
-
-
-
-
     }
-    
-    
-    
-    .footer-title{
+
+    .footer-title {
         margin: 0 0 20px;
-        .title{
+        .title {
             font-size: 18px;
             color: rgba($white-color, 1);
             font-weight: 400;
@@ -933,10 +918,10 @@ $gray-color3: #E4E4E4;
         }
     }
 
-    .footer-form-box{
-        .footer-form{
-            .form-group{
-                input{
+    .footer-form-box {
+        .footer-form {
+            .form-group {
+                input {
                     width: 100%;
                     height: 40px;
                     padding: 10px 30px;
@@ -948,14 +933,14 @@ $gray-color3: #E4E4E4;
                     &::placeholder {
                         color: rgba($blueDarck-color, 1);
                     }
-                    &:focus{
+                    &:focus {
                         border: 1px solid rgba(rgba($gray-color2, 1), 1);
                         outline: none;
                         box-shadow: none;
                     }
                 }
             }
-            .footer-submit{
+            .footer-submit {
                 width: 100%;
                 border-radius: 50px;
                 padding: 10px;
@@ -964,29 +949,30 @@ $gray-color3: #E4E4E4;
                 background-color: rgba($blueSky-color, 1);
                 color: rgba($white-color, 1);
                 @extend.trans-4;
-                &:hover{
+                &:hover {
                     background-color: rgba($white-color, 1);
                     color: rgba($blueDarck-color, 1);
                 }
             }
-            .nice-select{
+            .nice-select {
                 border-radius: 50px;
             }
-            .nice-select,.list{
+            .nice-select,
+            .list {
                 width: 100%;
                 background-color: rgba($gray-color3, 1);
             }
         }
 
-        &.footer-form2{
-            .footer-form{
-                .form-group{
+        &.footer-form2 {
+            .footer-form {
+                .form-group {
                     display: flex;
                     align-items: center;
-                    input{
+                    input {
                         border-radius: 10px 0 0 10px;
                     }
-                    .footer-submit{
+                    .footer-submit {
                         border-radius: 0 10px 10px 0;
                         padding: 7.5px;
                         border: none;
@@ -995,7 +981,7 @@ $gray-color3: #E4E4E4;
                         color: rgba($white-color, 1);
                         @extend.trans-4;
                         width: 36%;
-                        &:hover{
+                        &:hover {
                             background-color: rgba($white-color, 1);
                             color: rgba($blueDarck-color, 1);
                         }
@@ -1003,22 +989,17 @@ $gray-color3: #E4E4E4;
                 }
             }
         }
-
-        
-
     }
 
-
-    .socile-box{
-        .title{
+    .socile-box {
+        .title {
             margin: 30px 0;
             font-size: 20px;
             color: rgba($white-color, 1);
             font-weight: 400;
-
         }
 
-        ul{
+        ul {
             height: 100%;
             display: flex;
             align-items: center;
@@ -1030,14 +1011,14 @@ $gray-color3: #E4E4E4;
                     justify-content: center;
                     display: flex;
                     width: 40px;
-                    height:  40px;
-                    border:1px solid  rgba($white-color, 1);
+                    height: 40px;
+                    border: 1px solid rgba($white-color, 1);
                     font-size: 22px;
                     color: rgba($white-color, 1);
                     @extend.trans-4;
                     text-shadow: 3px 2px 1px rgba($white-color, 0.5);
                     &:hover {
-                        border:1px solid  rgba($blueSky-color, 1);
+                        border: 1px solid rgba($blueSky-color, 1);
                         text-shadow: 12px 2px 12px rgba($blueSky-color, 0.5);
                         color: rgba($blueSky-color, 1);
                     }
@@ -1046,22 +1027,21 @@ $gray-color3: #E4E4E4;
         }
     }
 
-
-    .footer-ul-2{
+    .footer-ul-2 {
         margin: 30px 0 20px;
         padding: 0 0 10px;
-        ul{
+        ul {
             border-bottom: 1px solid rgba($white-color, 1);
             display: flex;
             justify-content: space-between;
-            li{
+            li {
                 margin: 10px;
-                a{
+                a {
                     font-size: 20px;
                     color: rgba($white-color, 1);
                     font-weight: 400;
                     @extend.trans-4;
-                    &:hover{
+                    &:hover {
                         color: rgba($blueDarck-color, 1);
                     }
                 }
@@ -1069,39 +1049,35 @@ $gray-color3: #E4E4E4;
         }
     }
 
-    .footer-copy{
+    .footer-copy {
         text-align: center;
-        .prag{
-            width: 100%;a{
+        .prag {
+            width: 100%;
+            a {
                 color: rgba($white-color, 1);
             }
         }
     }
-
 }
-
 
 // end footer-section
 
-
-
-
-
-
-
-
-
-@media(max-width:772px){
-    .section-title1,.section-title3{
-         .title{
+@media (max-width: 772px) {
+    .section-title1,
+    .section-title3 {
+        .title {
             font-size: 42px;
-}
-}
-    .prag {
-        font-size: 14px
+        }
     }
-    .intro-section{
-         .intro-slider{
+    .prag {
+        font-size: 14px;
+    }
+    .intro-section {
+        .intro-slider {
+            .circle-arrow {
+                display: none;
+            }
+
             .slick-dots {
                 bottom: 14px;
                 opacity: 1;
@@ -1120,14 +1096,14 @@ $gray-color3: #E4E4E4;
                     }
                 }
             }
-              .intro-slider-item{
+            .intro-slider-item {
                 padding: 0 10px;
-               .slider-content{
-                padding: 81px 0;
-                    .intro-title{
+                .slider-content {
+                    padding: 81px 0;
+                    .intro-title {
                         font-size: 36px;
                     }
-                   .prag {
+                    .prag {
                         width: 100%;
                     }
                 }
@@ -1135,63 +1111,59 @@ $gray-color3: #E4E4E4;
         }
     }
 
-
-    .whatWeDo-section{
-         .what-box{
-                 .prag{
-                     margin: 10px 0;
-                    width: 100%;
-              }
+    .whatWeDo-section {
+        .what-box {
+            .prag {
+                margin: 10px 0;
+                width: 100%;
             }
         }
+    }
 
-        .portfolio-section{
-             .portfolio-box{
-                  .portfolio-pop-box{
-                       a{
-                            .portfolio-pimg{
-                                height: 134px;
-                                width: 134px;
-                                .project-title{
-                                    font-size: 12px;
-                                }
-                            }
+    .portfolio-section {
+        .portfolio-box {
+            .portfolio-pop-box {
+                a {
+                    .portfolio-pimg {
+                        height: 134px;
+                        width: 134px;
+                        .project-title {
+                            font-size: 12px;
                         }
                     }
                 }
             }
+        }
+    }
 
-            .why-us-section{
-                 .why-box{
-                      .why-box-content{
-                           .why-title{
-                            font-size: 24px;
-                           }
-                        }
-                    }
+    .why-us-section {
+        .why-box {
+            .why-box-content {
+                .why-title {
+                    font-size: 24px;
                 }
-                .footer-section{
-                     .right-box{
-                         margin: 0 0 30px 0 ;
-                        border-right: none;
-                        border-bottom: 1px solid rgba($white-color, 1);
-                        html[lang="ar"] & {
-                            
-                            border-left: none;
-                        }
-                     }
-                     .footer-title{
-                          .title{
-                            font-size: 12px;
-                          }
-                        }
-                         .footer-ul-2{
-                              ul{
-                                display: block;
-                                text-align: center;
-                              }
-                            }
-                    }
-
-
+            }
+        }
+    }
+    .footer-section {
+        .right-box {
+            margin: 0 0 30px 0;
+            border-right: none;
+            border-bottom: 1px solid rgba($white-color, 1);
+            html[lang="ar"] & {
+                border-left: none;
+            }
+        }
+        .footer-title {
+            .title {
+                font-size: 12px;
+            }
+        }
+        .footer-ul-2 {
+            ul {
+                display: block;
+                text-align: center;
+            }
+        }
+    }
 }
