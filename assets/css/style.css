@@ -23,7 +23,7 @@ html[lang="ar"] body {
   font-family: "Tajawal", sans-serif;
 }
 
-.trans-4, .more-button a, .search-box-pop, .search-box-pop .search-box-pop-form .search-form .form-group input, .search-box-pop .search-box-pop-form .search-form .form-group .search-form-button, .search-box-pop .search-box-pop-form .close-pop-botton span, .mobile-menu, .mobile-menu .close-menu i, .mobile-menu .main-mobile-menu li a, .mobile-menu .sochile-ul li a, .mobile-menu .mobile-lang-box a, .button-link1 a, .nav-bar .nav-ul .navBar-ul li a, .nav-bar .nav-ul .navBar-ul li a:after, .nav-bar .nav-ul .search-box i, .nav-bar .nav-ul .social-box ul li a, .nav-bar .nav-ul .lang-box a, .intro-section .intro-slider .circle-arrow i, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg::after, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg .project-title, .footer-section .right-box .ul-footer ul li a, .footer-section .footer-form-box .footer-form .form-group input, .footer-section .footer-form-box .footer-form .footer-submit, .footer-section .footer-form-box.footer-form2 .footer-form .form-group .footer-submit, .footer-section .socile-box ul li a, .footer-section .footer-ul-2 ul li a, .portfolioPage-section .portfoli-box .portfoli-Boxcontent, .portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription, .portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription .project-title, .portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription .project-link {
+.trans-4, .more-button a, .search-box-pop, .search-box-pop .search-box-pop-form .search-form .form-group input, .search-box-pop .search-box-pop-form .search-form .form-group .search-form-button, .search-box-pop .search-box-pop-form .close-pop-botton span, .mobile-menu, .mobile-menu .close-menu i, .mobile-menu .main-mobile-menu li a, .mobile-menu .sochile-ul li a, .mobile-menu .mobile-lang-box a, .button-link1 a, .nav-bar .nav-ul .navBar-ul li a, .nav-bar .nav-ul .navBar-ul li a:after, .nav-bar .nav-ul .search-box i, .nav-bar .nav-ul .social-box ul li a, .nav-bar .nav-ul .lang-box a, .intro-section .intro-slider .circle-arrow i, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg::after, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg .project-title, .footer-section .right-box .ul-footer ul li a, .footer-section .footer-form-box .footer-form .form-group input, .footer-section .footer-form-box .footer-form .footer-submit, .footer-section .footer-form-box.footer-form2 .footer-form .form-group .footer-submit, .footer-section .socile-box ul li a, .footer-section .footer-ul-2 ul li a, .portfolioPage-section .portfoli-box .portfoli-Boxcontent, .portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription, .portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription .project-title, .portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription .project-link, .pop-up-portfoli, .pop-up-portfoli .close-pop {
   transition: 0.4s all ease-in-out;
 }
 
@@ -1142,7 +1142,7 @@ html[lang="ar"] .footer-section .footer-form-box .footer-form .nice-select span 
   position: absolute;
 }
 .portfolioPage-section .portfoli-box {
-  margin: 30px  20px;
+  margin: 30px 20px;
   position: relative;
   height: 180px;
   border-radius: 20px;
@@ -1186,6 +1186,7 @@ html[lang="ar"] .footer-section .footer-form-box .footer-form .nice-select span 
   padding: 20px;
 }
 .portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription .project-link {
+  cursor: pointer;
   visibility: hidden;
   opacity: 1;
   border-radius: 40px;
@@ -1202,9 +1203,47 @@ html[lang="ar"] .footer-section .footer-form-box .footer-form .nice-select span 
   color: #e4e4e4;
 }
 
+.pop-up-portfoli {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+}
+.pop-up-portfoli .close-pop {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.pop-up-portfoli .close-pop:hover {
+  color: #63c5ea;
+}
+
+.pop-up-portfoli-opne {
+  opacity: 1;
+  visibility: visible;
+}
+
 @media (max-width: 992px) {
   .portfolioPage-section .portfoli-title-box .portfoli-title {
     width: 100%;
     font-size: 14px;
+  }
+
+  .pop-up-portfoli .close-pop {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
   }
 }

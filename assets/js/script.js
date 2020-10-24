@@ -52,6 +52,27 @@ $(document).ready(function(){
 
 
 
+    // pop-up-portfoli
+    $('.portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription .project-link').click(function(){
+        $('.pop-up-portfoli').addClass('pop-up-portfoli-opne');
+
+        const popSrc = $(this).parent('.portfoli-discription').parent('.portfoli-Boxcontent').parent('.portfoli-box').attr('data-link'); 
+
+        $('.ifream-pop-up-portfoli').attr('src' ,popSrc );
+
+
+
+        $('body').addClass('body-over');
+    });
+    $('.pop-up-portfoli .close-pop').click(function(){
+        $('.pop-up-portfoli').removeClass('pop-up-portfoli-opne');
+        $('.ifream-pop-up-portfoli').attr('src' ,"" );
+        $('body').removeClass('body-over');
+    });
+
+
+
+
 
     // niceSelect
     $(".select-box").niceSelect();
