@@ -31,7 +31,7 @@ $white-color: #fff;
 $blueSky-color: #63c5ea;
 $blueDarck-color: #162f42;
 $blueDarck-color2: #67869a;
-$blueDarck-color3: #67b1b6;
+$blueDarck-color3: #67B1B6;
 $gray-color: #a4a4a4;
 $gray-color2: #636363;
 $gray-color3: #e4e4e4;
@@ -77,27 +77,33 @@ $gray-color3: #e4e4e4;
     }
 }
 
-.intro-section-2 {
+
+
+
+
+.intro-section-2{
     @extend.back-setting;
     padding: 150px 0 200px;
 
-    .intro-title {
+    .intro-title{
         text-align: end;
-        .title {
+        .title{
             font-size: 80px;
             font-weight: 600;
             color: rgba($white-color, 1);
-            span {
+            span{
                 color: rgba($blueSky-color, 1);
             }
         }
     }
 }
 
-.more-button {
+
+
+.more-button{
     text-align: center;
     padding: 60px 0 20px;
-    a {
+    a{
         background-color: rgba($blueSky-color, 1);
         height: 60px;
         width: 60px;
@@ -110,13 +116,16 @@ $gray-color3: #e4e4e4;
         border-radius: 50%;
         border: 1px solid rgba($blueSky-color, 1);
         @extend.trans-4;
-        &:hover {
+        &:hover{
             color: rgba($balck-color, 1);
             background-color: rgba($white-color, 1);
             transform: translateY(10px);
         }
     }
 }
+
+
+
 
 // start search-box-pop
 .search-box-pop {
@@ -344,13 +353,14 @@ $gray-color3: #e4e4e4;
     }
 }
 
+.intro-sectio-gray{
+    .title {
+    color: rgba($gray-color, 1) !important;
+    }
+}
+
 .section-title3 {
     margin: 0 0 30px;
-    &.intro-sectio-gray {
-        .title {
-            color: rgba($gray-color, 1);
-        }
-    }
     .title {
         position: relative;
         color: rgba($gray-color2, 1);
@@ -378,7 +388,7 @@ $gray-color3: #e4e4e4;
 }
 
 .paddin-60-0 {
-    padding: 50px 0 0;
+    padding: 50px 0 0 ;
 }
 
 .button-link1 {
@@ -1009,14 +1019,15 @@ $gray-color3: #e4e4e4;
             }
             .nice-select {
                 border-radius: 50px;
-                &:after {
+                &:after{
                     height: 12px;
                     margin-top: -5px;
                     right: 35px;
                     top: 45%;
                     width: 12px;
+                
                 }
-                span {
+                span{
                     font-weight: 400;
 
                     html[lang="en"] & {
@@ -1187,11 +1198,12 @@ $gray-color3: #e4e4e4;
                 margin: 10px 0;
                 width: 100%;
             }
-            .boxwhat-title {
+            .boxwhat-title{
                 font-size: 12px;
             }
         }
     }
+    
 
     .portfolio-section {
         .portfolio-box {
@@ -1241,103 +1253,123 @@ $gray-color3: #e4e4e4;
     }
 }
 
+
+
+
+
+
 // start clints-page
 
-.clints-section {
-    background-image: url("../img/back1.png");
+
+.clints-section{
+    background-image: url('../img/back1.png');
     @extend.back-setting;
 
-    .clint-card-box {
+    .clint-card-box{
         margin: 40px 0;
         display: flex;
         flex-wrap: wrap;
-        .clint-card {
+        .clint-card{
             display: flex;
             justify-content: flex-start;
             padding: 0 50px;
             align-items: center;
-            flex: 1;
+            flex:1;
             background-color: rgba($white-color, 1);
             border-radius: 30px;
             min-height: 233px;
-            box-shadow: -25px 24px 11px rgba($balck-color, 0.3);
+            box-shadow: -25px 24px 11px  rgba($balck-color, 0.3);
             margin: 20px 0 20px -53px;
-            &:first-of-type {
-                margin: 20px 0;
+            &:first-of-type{
+                margin: 20px 0 ;
             }
-            &:last-of-type {
+            &:last-of-type{
                 justify-content: center;
             }
-            img {
+            img{
                 max-width: 72%;
             }
         }
     }
 }
 
+
 // end  clints-page
 
-@media (max-width: 992px) {
-    .clints-section {
-        .clint-card-box {
-            margin: 40px 0;
-            .clint-card {
-                justify-content: center;
-                padding: 0 50px;
-                min-height: 233px;
-                box-shadow: -25px 24px 11px rgba($balck-color, 0.3);
-                margin: 0 0 0 -53px;
-                flex-basis: 50%;
-                &:first-of-type {
-                    margin: 0 0 0 -53px;
-                }
-                img {
-                    max-width: 72%;
-                }
-            }
-        }
-    }
-}
-@media (max-width: 772px) {
-    .intro-section-2 {
-        padding: 100px 0;
-        .intro-title {
-            .title {
-                font-size: 44px;
-            }
-        }
-    }
 
-    .clints-section {
-        .clint-card-box {
-            margin: 0 0 24px 0px;
-            .clint-card {
-                padding: 20px;
-                justify-content: center;
-                min-height: 150px;
-                box-shadow: -25px 24px 11px rgba($balck-color, 0.3);
-                margin: 0 0 24px 0px;
-                flex-basis: 100%;
-                &:first-of-type {
-                    margin: 0 0 24px 0px;
-                }
-                img {
-                    max-width: 72%;
-                }
+
+
+@media(max-width:992px){
+    
+.clints-section{
+    .clint-card-box{
+        margin: 40px 0;
+        .clint-card{
+            justify-content: center;
+            padding: 0 50px;
+            min-height: 233px;
+            box-shadow: -25px 24px 11px  rgba($balck-color, 0.3);
+            margin: 0 0 0 -53px;
+            flex-basis:50%;
+            &:first-of-type{
+                margin: 0 0 0 -53px;
+            }
+            img{
+                max-width: 72%;
             }
         }
     }
 }
+
+}
+@media(max-width:772px){
+    
+    .intro-section-2{
+        padding: 100px 0;
+         .intro-title{
+              .title{
+                font-size: 44px;
+              }
+            }
+        }
+
+
+
+.clints-section{
+    .clint-card-box{
+        margin: 0 0 24px 0px;
+        .clint-card{
+            padding: 20px ;
+            justify-content: center;
+            min-height: 150px;
+            box-shadow: -25px 24px 11px  rgba($balck-color, 0.3);
+            margin: 0 0 24px 0px;
+            flex-basis:100%;
+            &:first-of-type{
+                margin: 0 0 24px 0px;
+            }
+            img{
+                max-width: 72%;
+            }
+        }
+    }
+}
+
+}
+
+
+
 
 // start portfolioPage-section
 
-.portfolioPage-section {
-    background-image: url("../img/back1.png");
+.portfolioPage-section{
+    background-image: url('../img/back1.png');
     @extend.back-setting;
 
-    .portfoli-title-box {
+
+    .portfoli-title-box{
         text-align: center;
-        .portfoli-title {
+        .portfoli-title{
             text-align: start;
             width: 55%;
             color: rgba($white-color, 1);
@@ -1348,7 +1380,7 @@ $gray-color3: #e4e4e4;
             padding: 12px 30px;
             margin: 0 auto 60px;
             background-color: rgba($blueDarck-color3, 1);
-            &:after {
+            &:after{
                 content: "";
                 bottom: -28px;
                 left: 0;
@@ -1362,86 +1394,100 @@ $gray-color3: #e4e4e4;
         }
     }
 
-    .portfoli-box {
-        margin: 30px 20px;
-        @extend.back-setting;
-        position: relative;
-        // width: 300px;
-        height: 180px;
-        border-radius: 20px;
-        z-index: 1;
-        overflow: hidden;
-        box-shadow: 7px 9px 18px 8px rgba($balck-color, 0.3);
-        &:hover {
-            .portfoli-Boxcontent {
-                height: 100%;
-                background-color: rgba($balck-color, 0.6);
-                .portfoli-discription {
-                    top: 0;
-                    transform: translateX(50%) translateY(26%);
-                    .project-link {
-                        opacity: 1;
-                        visibility: visible;
-                    }
+
+
+
+        
+        .portfoli-box{
+            margin: 30px  20px;
+            @extend.back-setting;
+            position: relative;
+            // width: 300px;
+            height: 180px;
+            border-radius: 20px;
+            z-index: 1;
+            overflow: hidden;
+            box-shadow: 7px 9px 18px 8px rgba($balck-color, 0.3);
+            &:hover{
+                .portfoli-Boxcontent{
+                    height: 100%;
+                    background-color: rgba($balck-color, .6);
+                    .portfoli-discription{
+                        top: 0;
+                        transform: translateX(50%) translateY(26%) ;
+                .project-link{
+                    opacity: 1;
+                    visibility: visible;
                 }
+            }
             }
         }
 
-        .portfoli-Boxcontent {
-            border-radius: 20px;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            height: 32%;
-            right: 0;
-            background-color: rgba($balck-color, 0.4);
-            text-align: center;
-            @extend.trans-4;
-            .portfoli-discription {
-                @extend.trans-4;
-                right: 50%;
-                transform: translateX(50%) translateY(0);
+
+            .portfoli-Boxcontent{
+                border-radius: 20px;
                 position: absolute;
-                top: 0;
-                height: 100%;
-                .project-title {
-                    font-size: 20px;
-                    color: rgba($white-color, 1);
-                    font-weight: 500;
-                    padding: 20px;
+                bottom: 0;
+                left: 0;
+                height: 32%;
+                right: 0;
+                background-color: rgba($balck-color, .4);
+                text-align: center;
+                @extend.trans-4;
+                .portfoli-discription{
                     @extend.trans-4;
-                }
-                .project-link {
-                    @extend.trans-4;
-                    visibility: hidden;
-                    opacity: 1;
-                    border-radius: 40px;
-                    font-size: 12px;
-                    margin: 20px 0;
-                    padding: 2px 15px;
-                    box-shadow: 4px 10px 10px rgba($balck-color, 0.4);
-                    font-weight: 600;
-                    color: rgba($blueDarck-color, 1);
-                    background-color: rgba($gray-color3, 1);
-                    &:hover {
-                        background-color: rgba($blueDarck-color, 1);
-                        color: rgba($gray-color3, 1);
+                    right: 50%;
+                    transform: translateX(50%) translateY(0) ; 
+                    position: absolute;
+                    top: 0;
+                    height: 100%;
+                    .project-title{
+                        font-size: 20px;
+                        color: rgba($white-color, 1);
+                        font-weight: 500;
+                        padding: 20px;
+                        @extend.trans-4;
+                    }
+                    .project-link{
+                        @extend.trans-4;
+                        visibility: hidden;
+                        opacity: 1;
+                        border-radius: 40px;
+                        font-size: 12px;
+                        margin: 20px 0;
+                        padding: 2px 15px;
+                        box-shadow: 4px 10px 10px rgba($balck-color, .4);
+                        font-weight: 600;
+                        color: rgba($blueDarck-color, 1);
+                        background-color: rgba($gray-color3, 1);
+                        &:hover{
+                            background-color: rgba($blueDarck-color, 1);
+                            color: rgba($gray-color3, 1);
+                        }
                     }
                 }
             }
+
         }
     }
-}
+
+
+
 
 // end portfolioPage-section
 
-@media (max-width: 992px) {
-    .portfolioPage-section {
-        .portfoli-title-box {
-            .portfoli-title {
+
+
+@media(max-width:992px){
+
+    .portfolioPage-section{
+         .portfoli-title-box{
+              .portfoli-title{
                 width: 100%;
                 font-size: 14px;
+              }
             }
         }
-    }
+
 }
+

@@ -296,11 +296,12 @@ html[lang="ar"] .mobile-menu .mobile-lang-box a {
   color: #636363;
 }
 
+.intro-sectio-gray .title {
+  color: #a4a4a4 !important;
+}
+
 .section-title3 {
   margin: 0 0 30px;
-}
-.section-title3.intro-sectio-gray .title {
-  color: #a4a4a4;
 }
 .section-title3 .title {
   position: relative;
@@ -1141,7 +1142,7 @@ html[lang="ar"] .footer-section .footer-form-box .footer-form .nice-select span 
   position: absolute;
 }
 .portfolioPage-section .portfoli-box {
-  margin: 30px 20px;
+  margin: 30px  20px;
   position: relative;
   height: 180px;
   border-radius: 20px;
