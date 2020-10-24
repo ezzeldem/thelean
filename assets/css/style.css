@@ -23,7 +23,7 @@ html[lang="ar"] body {
   font-family: "Tajawal", sans-serif;
 }
 
-.trans-4, .search-box-pop, .search-box-pop .search-box-pop-form .search-form .form-group input, .search-box-pop .search-box-pop-form .search-form .form-group .search-form-button, .search-box-pop .search-box-pop-form .close-pop-botton span, .mobile-menu, .mobile-menu .close-menu i, .mobile-menu .main-mobile-menu li a, .mobile-menu .sochile-ul li a, .mobile-menu .mobile-lang-box a, .button-link1 a, .nav-bar .nav-ul .navBar-ul li a, .nav-bar .nav-ul .navBar-ul li a:after, .nav-bar .nav-ul .search-box i, .nav-bar .nav-ul .social-box ul li a, .nav-bar .nav-ul .lang-box a, .intro-section .intro-slider .circle-arrow i, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg::after, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg .project-title, .footer-section .right-box .ul-footer ul li a, .footer-section .footer-form-box .footer-form .form-group input, .footer-section .footer-form-box .footer-form .footer-submit, .footer-section .footer-form-box.footer-form2 .footer-form .form-group .footer-submit, .footer-section .socile-box ul li a, .footer-section .footer-ul-2 ul li a {
+.trans-4, .more-button a, .search-box-pop, .search-box-pop .search-box-pop-form .search-form .form-group input, .search-box-pop .search-box-pop-form .search-form .form-group .search-form-button, .search-box-pop .search-box-pop-form .close-pop-botton span, .mobile-menu, .mobile-menu .close-menu i, .mobile-menu .main-mobile-menu li a, .mobile-menu .sochile-ul li a, .mobile-menu .mobile-lang-box a, .button-link1 a, .nav-bar .nav-ul .navBar-ul li a, .nav-bar .nav-ul .navBar-ul li a:after, .nav-bar .nav-ul .search-box i, .nav-bar .nav-ul .social-box ul li a, .nav-bar .nav-ul .lang-box a, .intro-section .intro-slider .circle-arrow i, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg::after, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg .project-title, .footer-section .right-box .ul-footer ul li a, .footer-section .footer-form-box .footer-form .form-group input, .footer-section .footer-form-box .footer-form .footer-submit, .footer-section .footer-form-box.footer-form2 .footer-form .form-group .footer-submit, .footer-section .socile-box ul li a, .footer-section .footer-ul-2 ul li a {
   transition: 0.4s all ease-in-out;
 }
 
@@ -55,6 +55,44 @@ html[lang="ar"] .opne-mobile-menu {
 }
 .open-pop-up .search-box-pop-form .search-form .form-group .search-form-button {
   opacity: 1 !important;
+}
+
+.intro-section-2 {
+  padding: 150px 0 200px;
+}
+.intro-section-2 .intro-title {
+  text-align: end;
+}
+.intro-section-2 .intro-title .title {
+  font-size: 80px;
+  font-weight: 600;
+  color: white;
+}
+.intro-section-2 .intro-title .title span {
+  color: #63c5ea;
+}
+
+.more-button {
+  text-align: center;
+  padding: 60px 0 20px;
+}
+.more-button a {
+  background-color: #63c5ea;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  color: white;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid #63c5ea;
+}
+.more-button a:hover {
+  color: black;
+  background-color: white;
+  transform: translateY(10px);
 }
 
 .search-box-pop {
@@ -242,7 +280,7 @@ html[lang="ar"] .mobile-menu .mobile-lang-box a {
   color: #636363;
 }
 
-.back-setting, .intro-section .intro-slider .intro-slider-item, .whatWeDo-section, .portfolio-section, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg, .why-us-section, .clients-section {
+.back-setting, .intro-section-2, .intro-section .intro-slider .intro-slider-item, .whatWeDo-section, .portfolio-section, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg, .why-us-section, .clients-section, .clints-section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -286,6 +324,10 @@ html[lang="ar"] .mobile-menu .mobile-lang-box a {
   padding: 50px 0;
 }
 
+.paddin-60-0 {
+  padding: 50px 0 0;
+}
+
 .button-link1.see-more-button {
   text-align: center;
   margin: 30px 0 0;
@@ -307,6 +349,7 @@ html[lang="ar"] .mobile-menu .mobile-lang-box a {
 
 .nav-bar {
   padding: 20px 0;
+  background-color: white;
 }
 .nav-bar .dis-col {
   display: none;
@@ -988,5 +1031,80 @@ html[lang="ar"] .footer-section .footer-form-box .footer-form .nice-select span 
   .footer-section .footer-ul-2 ul {
     display: block;
     text-align: center;
+  }
+}
+.clints-section {
+  background-image: url("../img/back1.png");
+}
+.clints-section .clint-card-box {
+  margin: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.clints-section .clint-card-box .clint-card {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 50px;
+  align-items: center;
+  flex: 1;
+  background-color: white;
+  border-radius: 30px;
+  min-height: 233px;
+  box-shadow: -25px 24px 11px rgba(0, 0, 0, 0.3);
+  margin: 20px 0 20px -53px;
+}
+.clints-section .clint-card-box .clint-card:first-of-type {
+  margin: 20px 0;
+}
+.clints-section .clint-card-box .clint-card:last-of-type {
+  justify-content: center;
+}
+.clints-section .clint-card-box .clint-card img {
+  max-width: 72%;
+}
+
+@media (max-width: 992px) {
+  .clints-section .clint-card-box {
+    margin: 40px 0;
+  }
+  .clints-section .clint-card-box .clint-card {
+    justify-content: center;
+    padding: 0 50px;
+    min-height: 233px;
+    box-shadow: -25px 24px 11px rgba(0, 0, 0, 0.3);
+    margin: 0 0 0 -53px;
+    flex-basis: 50%;
+  }
+  .clints-section .clint-card-box .clint-card:first-of-type {
+    margin: 0 0 0 -53px;
+  }
+  .clints-section .clint-card-box .clint-card img {
+    max-width: 72%;
+  }
+}
+@media (max-width: 772px) {
+  .intro-section-2 {
+    padding: 100px 0;
+  }
+  .intro-section-2 .intro-title .title {
+    font-size: 44px;
+  }
+
+  .clints-section .clint-card-box {
+    margin: 0 0 24px 0px;
+  }
+  .clints-section .clint-card-box .clint-card {
+    padding: 20px;
+    justify-content: center;
+    min-height: 150px;
+    box-shadow: -25px 24px 11px rgba(0, 0, 0, 0.3);
+    margin: 0 0 24px 0px;
+    flex-basis: 100%;
+  }
+  .clints-section .clint-card-box .clint-card:first-of-type {
+    margin: 0 0 24px 0px;
+  }
+  .clints-section .clint-card-box .clint-card img {
+    max-width: 72%;
   }
 }
