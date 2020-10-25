@@ -1933,7 +1933,16 @@ $page-color: #5c5d7c;
         padding: 12px 30px;
         margin: 0 auto 30px;
         background-color: rgba($blueDarck-color3, 1);
+        html[lang="ar"] & {
+            width: 100%;
+        }
         &:after {
+            html[lang="ar"] & {
+                left:unset;
+                right:0;
+                border-right: 25px solid transparent;
+                border-left: 0px solid transparent;
+            }
             content: "";
             bottom: -28px;
             left: 0;
@@ -1948,6 +1957,7 @@ $page-color: #5c5d7c;
 
     .prag2 {
         font-size: 16px;
+        text-align: start;
         color: rgba($gray-color2, 1);
         font-weight: 400;
         margin: 0 0 80px;

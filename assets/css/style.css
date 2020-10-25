@@ -1610,6 +1610,9 @@ html[lang="ar"] .clints-section .clint-card-box .clint-card {
   margin: 0 auto 30px;
   background-color: #67b1b6;
 }
+html[lang="ar"] .provide-section .provide-title-st {
+  width: 100%;
+}
 .provide-section .provide-title-st:after {
   content: "";
   bottom: -28px;
@@ -1621,8 +1624,15 @@ html[lang="ar"] .clints-section .clint-card-box .clint-card {
   border-top: 28px solid #67869a;
   position: absolute;
 }
+html[lang="ar"] .provide-section .provide-title-st:after {
+  left: unset;
+  right: 0;
+  border-right: 25px solid transparent;
+  border-left: 0px solid transparent;
+}
 .provide-section .prag2 {
   font-size: 16px;
+  text-align: start;
   color: #636363;
   font-weight: 400;
   margin: 0 0 80px;
