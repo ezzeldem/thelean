@@ -476,6 +476,12 @@ html[lang="ar"] .nav-bar .nav-ul .navBar-ul li a:after {
 .nav-bar .nav-ul .lang-box a:hover {
   color: rgba(99, 197, 234, 0.5);
 }
+html[lang="ar"] .nav-bar .nav-ul .lang-box a:first-of-type {
+  border-right: 0;
+}
+html[lang="ar"] .nav-bar .nav-ul .lang-box a:last-of-type {
+  border-right: 3px solid black;
+}
 
 @media (max-width: 1200px) {
   .nav-bar .nav-ul .navBar-ul li {
@@ -1359,6 +1365,9 @@ html[lang="ar"] .clints-section .clint-card-box .clint-card {
   background-image: url("../img/back1.png");
   padding: 60px 0;
 }
+.contact-sectin .contact-content {
+  text-align: start;
+}
 .contact-sectin .contact-content .contact-title {
   font-size: 80px;
   font-weight: 700;
@@ -1549,7 +1558,7 @@ html[lang="ar"] .clints-section .clint-card-box .clint-card {
   padding: 100px 0;
 }
 .about-us-page .about-us-content .about-us-title {
-  font-size: 80px;
+  font-size: 75px;
   font-weight: 700;
   color: black;
   margin: 0 0 20px;
@@ -1640,7 +1649,7 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 
 @media (max-width: 992px) {
   .about-us-page .about-us-content .about-us-title {
-    font-size: 40px;
+    font-size: 38px;
   }
   .about-us-page .about-us-content .prag2 {
     font-size: 16px;
@@ -1656,6 +1665,9 @@ html[lang="ar"] .provide-section .provide-title-st:after {
   }
 }
 @media (max-width: 772px) {
+  .about-us-page {
+    padding: 20px 0;
+  }
   .about-us-page .about-us-content .about-us-title {
     margin: 20px 0;
     font-size: 30px;
