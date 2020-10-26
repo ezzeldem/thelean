@@ -632,6 +632,21 @@ $page-color: #5c5d7c;
         }
     }
 }
+@media (max-width: 1300px) {
+  
+    .nav-bar{
+         .nav-ul{
+              .navBar-ul{
+                   li{
+
+                    a{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 @media (max-width: 772px) {
     .search-box-pop {

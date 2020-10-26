@@ -542,6 +542,11 @@ html[lang="ar"] .nav-bar .nav-ul .lang-box a:last-of-type {
     display: none;
   }
 }
+@media (max-width: 1300px) {
+  .nav-bar .nav-ul .navBar-ul li a {
+    font-size: 14px;
+  }
+}
 @media (max-width: 772px) {
   .search-box-pop .search-box-pop-form .search-form .form-group input {
     width: unset;
