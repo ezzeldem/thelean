@@ -40,6 +40,7 @@ $blueDarck-color3: #67b1b6;
 $blueDarck-color4: #719ad0;
 $blueDarck-color5: #99caee;
 $blueDarck-color6: #084c94;
+$blueDarck-color7: #4DC2C2;
 $gray-color: #a4a4a4;
 $gray-color2: #636363;
 $gray-color3: #e4e4e4;
@@ -2083,6 +2084,9 @@ $blue3-color: #edf7ff;
     .investment-page & {
         background-color: rgba($whiteRed-color, 1);
     }
+    .school-management-page & {
+        background-color: rgba($white-color, 1);
+    }
 }
 
 // end prodact-page-intro
@@ -2132,6 +2136,9 @@ $blue3-color: #edf7ff;
     .investment-page & {
         background-color: rgba($blueDarck-color4, 1);
     }
+    .school-management-page & {
+        background-color: rgba($blueDarck-color7, 1);
+    }
 }
 
 .prodact-page-link2 {
@@ -2156,6 +2163,9 @@ $blue3-color: #edf7ff;
 
     .investment-page & {
         background-color: rgba($blueDarck-color4, 1);
+    }
+    .school-management-page & {
+        background-color: rgba($blueDarck-color7, 1);
     }
 }
 
@@ -2209,6 +2219,16 @@ $blue3-color: #edf7ff;
 
         position: absolute;
     }
+
+    .school-management-page & {
+        background-color: rgba($blueDarck-color7, 1);
+    }
+
+
+
+
+
+
 }
 
 // start features-section

@@ -1719,6 +1719,9 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 .investment-page .prodact-page-sc-intro {
   background-color: #f2f1f1;
 }
+.school-management-page .prodact-page-sc-intro {
+  background-color: white;
+}
 
 .prodact-page-link {
   font-size: 24px;
@@ -1761,6 +1764,9 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 .investment-page .prodact-page-link {
   background-color: #719ad0;
 }
+.school-management-page .prodact-page-link {
+  background-color: #4dc2c2;
+}
 
 .prodact-page-link2 {
   font-size: 24px;
@@ -1781,6 +1787,9 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 }
 .investment-page .prodact-page-link2 {
   background-color: #719ad0;
+}
+.school-management-page .prodact-page-link2 {
+  background-color: #4dc2c2;
 }
 
 .overView-section {
@@ -1825,6 +1834,9 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 html[lang="ar"] .section-title-style:after {
   left: unset;
   right: 0;
+}
+.school-management-page .section-title-style {
+  background-color: #4dc2c2;
 }
 
 .features-section {
