@@ -32,10 +32,14 @@ body {
 // var
 $balck-color: #000;
 $white-color: #fff;
+$whiteRed-color: #f2f1f1;
 $blueSky-color: #63c5ea;
 $blueDarck-color: #162f42;
 $blueDarck-color2: #67869a;
 $blueDarck-color3: #67b1b6;
+$blueDarck-color4: #719ad0;
+$blueDarck-color5: #99caee;
+$blueDarck-color6: #084c94;
 $gray-color: #a4a4a4;
 $gray-color2: #636363;
 $gray-color3: #e4e4e4;
@@ -44,6 +48,7 @@ $orang-color: #ffe3aa;
 $pink-color: #f9cad2;
 $red-color: #ff4f5a;
 $page-color: #5c5d7c;
+$blue3-color: #edf7ff;
 
 // var
 
@@ -129,6 +134,10 @@ $page-color: #5c5d7c;
             }
         }
     }
+}
+
+.paddi-100 {
+    padding: 100px 0;
 }
 
 .more-button {
@@ -633,13 +642,11 @@ $page-color: #5c5d7c;
     }
 }
 @media (max-width: 1300px) {
-  
-    .nav-bar{
-         .nav-ul{
-              .navBar-ul{
-                   li{
-
-                    a{
+    .nav-bar {
+        .nav-ul {
+            .navBar-ul {
+                li {
+                    a {
                         font-size: 14px;
                     }
                 }
@@ -2052,5 +2059,359 @@ $page-color: #5c5d7c;
     .provide-title-st {
         width: 100% !important;
         font-size: 14px !important;
+    }
+}
+
+// start prodact-page-intro
+
+.prodact-page-sc-intro {
+    .prodact-page-title {
+        font-size: 40px;
+        font-weight: 600;
+        margin: 0 0 40px;
+        color: rgba($blueDarck-color6, 1);
+    }
+
+    .prag {
+        color: rgba($blueDarck-color6, 1);
+        width: 80%;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0px 30px 40px;
+    }
+
+    .investment-page & {
+        background-color: rgba($whiteRed-color, 1);
+    }
+}
+
+// end prodact-page-intro
+
+.prodact-page-link {
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px 50px 10px 30px;
+    color: rgba($white-color, 1);
+    @extend.trans-4;
+    background-color: rgba($blueDarck-color, 1);
+    margin: 0px 30px 40px;
+    position: relative;
+
+    &:hover {
+        background-color: transparent;
+    }
+    &:hover {
+        color: rgba($blueDarck-color, 1);
+        &:after {
+            color: rgba($blueDarck-color, 1);
+            right: 10px;
+            html[lang="ar"] {
+                left: 10px;
+            }
+        }
+    }
+
+    &::after {
+        content: "\f105";
+        position: absolute;
+        font-weight: 900;
+        font-family: "Font Awesome 5 Free";
+        color: rgba($white-color, 1);
+        @extend.trans-4;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        html[lang="ar"] {
+            right: unset;
+            left: 20px;
+            content: "\f104";
+        }
+    }
+
+    .investment-page & {
+        background-color: rgba($blueDarck-color4, 1);
+    }
+}
+
+.prodact-page-link2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: rgba($white-color, 1);
+    @extend.trans-4;
+    background-color: rgba($blueDarck-color, 1);
+    margin: 50px 30px 40px;
+    position: relative;
+
+    &:hover {
+        background-color: transparent;
+    }
+
+    &:hover {
+        color: rgba($blueDarck-color, 1);
+    }
+
+    .investment-page & {
+        background-color: rgba($blueDarck-color4, 1);
+    }
+}
+
+// start overView-section
+.overView-section {
+    background-image: url("../img/back1.png");
+    @extend.back-setting;
+
+    .overView-img {
+        margin: -103px 0 0;
+    }
+    .overView-prag {
+        .prag3 {
+            font-size: 20px;
+            width: 80%;
+            font-weight: 500;
+            line-height: 50px;
+            color: rgba($gray-color2, 1);
+        }
+    }
+}
+
+// end overView-section
+
+.section-title-style {
+    position: relative;
+    padding: 12px 30px;
+    color: rgba($white-color, 1);
+    background-color: rgba($blueDarck-color4, 1);
+    display: block;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0 4px 8px -2px rgba($blueDarck-color, 0.6);
+    margin: 0 auto 40px;
+    z-index: 1;
+    &:after {
+        content: "";
+        bottom: -28px;
+        left: 0;
+        html[lang="ar"] & {
+            left: unset;
+            right: 0;
+        }
+        z-index: -1;
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 0px solid transparent;
+        border-top: 28px solid rgba($blueDarck-color5, 1);
+
+        position: absolute;
+    }
+}
+
+// start features-section
+
+.features-section {
+    background: url("../img/sdadsadsa.png") rgba($blue3-color, 0.4);
+    @extend.back-setting;
+
+    .features-box {
+        margin: 20px 0 50px;
+        .features-text {
+            .features-title {
+                font-size: 22px;
+                color: rgba($blueDarck-color6, 1);
+                font-weight: 600;
+                margin: 0 0 20px;
+                font-weight: 600;
+            }
+            .prag3 {
+                font-size: 16px;
+                color: rgba($blueDarck-color6, 1);
+                font-weight: 500;
+            }
+        }
+    }
+
+    .prodact-page-link-box {
+        text-align: center;
+    }
+}
+
+// end features-section
+
+// start benefits-section
+
+.benefits-section {
+    background: url("../img/nmadkjsndsal.png");
+    @extend.back-setting;
+    .benefits-prag {
+        color: rgba($blueDarck-color, 1);
+        width: 51%;
+        line-height: 42px;
+        text-align: center;
+        margin: 60px auto 60px;
+        font-size: 20px;
+    }
+
+    .benefits-slider {
+        .circle-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 99;
+            i {
+                font-size: 52px;
+                color: rgba($blueDarck-color, 1);
+                @extend.trans-4;
+                cursor: pointer;
+                &:hover {
+                    color: rgba($blueSky-color, 1);
+                }
+            }
+            &.devo-left {
+                left: -50px;
+            }
+            &.devo-right {
+                right: -50px;
+            }
+        }
+
+        .benefits-slider-item {
+            width: calc(100% - 20px) !important;
+            padding: 40px 20px;
+            text-align: center;
+            background-color: rgba($white-color, 1);
+            margin: 32px 5px;
+            border-radius: 20px;
+            box-shadow: 9px 8px 10px 3px rgba($blueDarck-color, 0.3);
+            .slid-img {
+                height: 176px;
+                margin: 20px auto;
+            }
+            .benefits-slider-title {
+                font-size: 22px;
+                margin: 20px 0;
+                font-weight: 700;
+                color: rgba($blueDarck-color, 1);
+            }
+            .prag3 {
+                font-size: 12px;
+                font-weight: 400;
+                color: rgba($blueDarck-color, 1);
+            }
+        }
+    }
+
+    .benefits-link {
+        text-align: center;
+        margin: 100px 0 0;
+    }
+}
+
+// end benefits-section
+
+@media (max-width: 992px) {
+    .order-md1 {
+        order: -1;
+    }
+
+    .dis-md {
+        display: none;
+    }
+
+    .overView-section {
+        .overView-img {
+            margin: 20px 0 20px;
+        }
+        .overView-prag {
+            .prag3 {
+                text-align: center;
+                width: 100%;
+            }
+        }
+    }
+
+    .section-title-style {
+        width: 47%;
+    }
+
+    .benefits-section {
+        .benefits-prag {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 772px) {
+    .paddi-100 {
+        padding: 40px 0;
+    }
+    .prodact-page-sc-intro {
+        .prodact-page-title {
+            font-size: 34px;
+            margin: 0 0 23px;
+        }
+        .prag {
+            font-size: 16px;
+        }
+    }
+
+    .prodact-page-link,
+    .prodact-page-link2 {
+        font-size: 18px;
+    }
+
+    .features-section {
+        .features-box {
+            .features-icone {
+                img {
+                    height: 45px;
+                }
+            }
+
+            .features-text {
+                margin: 20px 0;
+                .features-title {
+                    font-size: 18px;
+                }
+                .prag3 {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .benefits-section {
+        .benefits-prag {
+            font-size: 14px;
+            margin: 44px auto 36px;
+            line-height: 35px;
+        }
+    }
+
+    .overView-section {
+        .overView-prag {
+            .prag3 {
+                font-size: 14px;
+                line-height: 38px;
+            }
+        }
+    }
+
+    .benefits-section {
+        .benefits-slider {
+            .circle-arrow {
+                top: 105%;
+                &.devo-left {
+                    left: 35%;
+                }
+                &.devo-right {
+                    right: 35%;
+                }
+            }
+        }
     }
 }

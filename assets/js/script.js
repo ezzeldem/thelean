@@ -49,6 +49,47 @@ $(document).ready(function () {
     });
 
 
+    
+    // benefits-slider
+    $(".benefits-slider").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        outhight: true,
+        prevArrow: "<div class='circle-arrow devo-right'><i class='fas fa-angle-right'></i></div>",
+        nextArrow: "<div class='circle-arrow devo-left'><i class='fas fa-angle-left'></i></div>",
+        autoplaySpeed: 2000,
+        rtl: dir_lang,
+        autoplay: false,
+        dots: false,
+        arrows: true,
+        responsive: [
+            {
+              breakpoint: 1220,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 772,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ]
+    });
+
 
 
     // pop-up-portfoli
@@ -73,5 +114,7 @@ $(document).ready(function () {
 
     
     // aos
-    AOS.init();
+    AOS.init({
+        duration: 1000
+    });
 });

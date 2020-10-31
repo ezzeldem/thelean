@@ -27,7 +27,7 @@ html[lang="ar"] body {
   font-family: "Tajawal", sans-serif;
 }
 
-.trans-4, .more-button a, .search-box-pop, .search-box-pop .search-box-pop-form .search-form .form-group input, .search-box-pop .search-box-pop-form .search-form .form-group .search-form-button, .search-box-pop .search-box-pop-form .close-pop-botton span, .mobile-menu, .mobile-menu .close-menu i, .mobile-menu .main-mobile-menu li a, .mobile-menu .sochile-ul li a, .mobile-menu .mobile-lang-box a, .button-link1 a, .nav-bar .nav-ul .navBar-ul li a, .nav-bar .nav-ul .navBar-ul li a:after, .nav-bar .nav-ul .search-box i, .nav-bar .nav-ul .social-box ul li a, .nav-bar .nav-ul .lang-box a, .intro-section .intro-slider .circle-arrow i, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg::after, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg .project-title, .footer-section .right-box .ul-footer ul li a, .footer-section .footer-form-box .footer-form .form-group input, .footer-section .footer-form-box .footer-form .footer-submit, .footer-section .footer-form-box.footer-form2 .footer-form .form-group .footer-submit, .footer-section .socile-box ul li a, .footer-section .footer-ul-2 ul li a, .portfolioPage-section .portfoli-box .portfoli-Boxcontent, .portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription, .portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription .project-title, .portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription .project-link, .pop-up-portfoli, .pop-up-portfoli .close-pop, .contact-sectin .contact-content .contact-form-box .contact-form .form-group input, .contact-sectin .contact-content .contact-form-box .contact-form .form-group textarea, .contact-sectin .contact-content .contact-form-box .contact-form .contact-submit, .servicesPage-section .services-box .services-link {
+.trans-4, .more-button a, .search-box-pop, .search-box-pop .search-box-pop-form .search-form .form-group input, .search-box-pop .search-box-pop-form .search-form .form-group .search-form-button, .search-box-pop .search-box-pop-form .close-pop-botton span, .mobile-menu, .mobile-menu .close-menu i, .mobile-menu .main-mobile-menu li a, .mobile-menu .sochile-ul li a, .mobile-menu .mobile-lang-box a, .button-link1 a, .nav-bar .nav-ul .navBar-ul li a, .nav-bar .nav-ul .navBar-ul li a:after, .nav-bar .nav-ul .search-box i, .nav-bar .nav-ul .social-box ul li a, .nav-bar .nav-ul .lang-box a, .intro-section .intro-slider .circle-arrow i, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg::after, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg .project-title, .footer-section .right-box .ul-footer ul li a, .footer-section .footer-form-box .footer-form .form-group input, .footer-section .footer-form-box .footer-form .footer-submit, .footer-section .footer-form-box.footer-form2 .footer-form .form-group .footer-submit, .footer-section .socile-box ul li a, .footer-section .footer-ul-2 ul li a, .portfolioPage-section .portfoli-box .portfoli-Boxcontent, .portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription, .portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription .project-title, .portfolioPage-section .portfoli-box .portfoli-Boxcontent .portfoli-discription .project-link, .pop-up-portfoli, .pop-up-portfoli .close-pop, .contact-sectin .contact-content .contact-form-box .contact-form .form-group input, .contact-sectin .contact-content .contact-form-box .contact-form .form-group textarea, .contact-sectin .contact-content .contact-form-box .contact-form .contact-submit, .servicesPage-section .services-box .services-link, .prodact-page-link, .prodact-page-link::after, .prodact-page-link2, .benefits-section .benefits-slider .circle-arrow i {
   transition: 0.4s all ease-in-out;
 }
 
@@ -97,6 +97,10 @@ html[lang="ar"] .opne-mobile-menu {
 }
 .intro-section-2 .intro-title .title span {
   color: #63c5ea;
+}
+
+.paddi-100 {
+  padding: 100px 0;
 }
 
 .more-button {
@@ -312,7 +316,7 @@ html[lang="ar"] .mobile-menu .mobile-lang-box a {
   color: #636363;
 }
 
-.back-setting, .intro-section-2, .intro-section .intro-slider .intro-slider-item, .whatWeDo-section, .portfolio-section, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg, .why-us-section, .clients-section, .clints-section, .portfolioPage-section, .portfolioPage-section .portfoli-box, .products-section, .contact-sectin, .servicesPage-section, .about-us-page, .provide-section {
+.back-setting, .intro-section-2, .intro-section .intro-slider .intro-slider-item, .whatWeDo-section, .portfolio-section, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg, .why-us-section, .clients-section, .clints-section, .portfolioPage-section, .portfolioPage-section .portfoli-box, .products-section, .contact-sectin, .servicesPage-section, .about-us-page, .provide-section, .overView-section, .features-section, .benefits-section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1697,5 +1701,288 @@ html[lang="ar"] .provide-section .provide-title-st:after {
   .provide-title-st {
     width: 100% !important;
     font-size: 14px !important;
+  }
+}
+.prodact-page-sc-intro .prodact-page-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0 0 40px;
+  color: #084c94;
+}
+.prodact-page-sc-intro .prag {
+  color: #084c94;
+  width: 80%;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px 30px 40px;
+}
+.investment-page .prodact-page-sc-intro {
+  background-color: #f2f1f1;
+}
+
+.prodact-page-link {
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 10px 50px 10px 30px;
+  color: white;
+  background-color: #162f42;
+  margin: 0px 30px 40px;
+  position: relative;
+}
+.prodact-page-link:hover {
+  background-color: transparent;
+}
+.prodact-page-link:hover {
+  color: #162f42;
+}
+.prodact-page-link:hover:after {
+  color: #162f42;
+  right: 10px;
+}
+.prodact-page-link:hover:after html[lang="ar"] {
+  left: 10px;
+}
+.prodact-page-link::after {
+  content: "\f105";
+  position: absolute;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  color: white;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.prodact-page-link::after html[lang="ar"] {
+  right: unset;
+  left: 20px;
+  content: "\f104";
+}
+.investment-page .prodact-page-link {
+  background-color: #719ad0;
+}
+
+.prodact-page-link2 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: white;
+  background-color: #162f42;
+  margin: 50px 30px 40px;
+  position: relative;
+}
+.prodact-page-link2:hover {
+  background-color: transparent;
+}
+.prodact-page-link2:hover {
+  color: #162f42;
+}
+.investment-page .prodact-page-link2 {
+  background-color: #719ad0;
+}
+
+.overView-section {
+  background-image: url("../img/back1.png");
+}
+.overView-section .overView-img {
+  margin: -103px 0 0;
+}
+.overView-section .overView-prag .prag3 {
+  font-size: 20px;
+  width: 80%;
+  font-weight: 500;
+  line-height: 50px;
+  color: #636363;
+}
+
+.section-title-style {
+  position: relative;
+  padding: 12px 30px;
+  color: white;
+  background-color: #719ad0;
+  display: block;
+  width: 30%;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 0 4px 8px -2px rgba(22, 47, 66, 0.6);
+  margin: 0 auto 40px;
+  z-index: 1;
+}
+.section-title-style:after {
+  content: "";
+  bottom: -28px;
+  left: 0;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 28px solid #99caee;
+  position: absolute;
+}
+html[lang="ar"] .section-title-style:after {
+  left: unset;
+  right: 0;
+}
+
+.features-section {
+  background: url("../img/sdadsadsa.png") rgba(237, 247, 255, 0.4);
+}
+.features-section .features-box {
+  margin: 20px 0 50px;
+}
+.features-section .features-box .features-text .features-title {
+  font-size: 22px;
+  color: #084c94;
+  font-weight: 600;
+  margin: 0 0 20px;
+  font-weight: 600;
+}
+.features-section .features-box .features-text .prag3 {
+  font-size: 16px;
+  color: #084c94;
+  font-weight: 500;
+}
+.features-section .prodact-page-link-box {
+  text-align: center;
+}
+
+.benefits-section {
+  background: url("../img/nmadkjsndsal.png");
+}
+.benefits-section .benefits-prag {
+  color: #162f42;
+  width: 51%;
+  line-height: 42px;
+  text-align: center;
+  margin: 60px auto 60px;
+  font-size: 20px;
+}
+.benefits-section .benefits-slider .circle-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+}
+.benefits-section .benefits-slider .circle-arrow i {
+  font-size: 52px;
+  color: #162f42;
+  cursor: pointer;
+}
+.benefits-section .benefits-slider .circle-arrow i:hover {
+  color: #63c5ea;
+}
+.benefits-section .benefits-slider .circle-arrow.devo-left {
+  left: -50px;
+}
+.benefits-section .benefits-slider .circle-arrow.devo-right {
+  right: -50px;
+}
+.benefits-section .benefits-slider .benefits-slider-item {
+  width: calc(100% - 20px) !important;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: white;
+  margin: 32px 5px;
+  border-radius: 20px;
+  box-shadow: 9px 8px 10px 3px rgba(22, 47, 66, 0.3);
+}
+.benefits-section .benefits-slider .benefits-slider-item .slid-img {
+  height: 176px;
+  margin: 20px auto;
+}
+.benefits-section .benefits-slider .benefits-slider-item .benefits-slider-title {
+  font-size: 22px;
+  margin: 20px 0;
+  font-weight: 700;
+  color: #162f42;
+}
+.benefits-section .benefits-slider .benefits-slider-item .prag3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #162f42;
+}
+.benefits-section .benefits-link {
+  text-align: center;
+  margin: 100px 0 0;
+}
+
+@media (max-width: 992px) {
+  .order-md1 {
+    order: -1;
+  }
+
+  .dis-md {
+    display: none;
+  }
+
+  .overView-section .overView-img {
+    margin: 20px 0 20px;
+  }
+  .overView-section .overView-prag .prag3 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .section-title-style {
+    width: 47%;
+  }
+
+  .benefits-section .benefits-prag {
+    width: 100%;
+  }
+}
+@media (max-width: 772px) {
+  .paddi-100 {
+    padding: 40px 0;
+  }
+
+  .prodact-page-sc-intro .prodact-page-title {
+    font-size: 34px;
+    margin: 0 0 23px;
+  }
+  .prodact-page-sc-intro .prag {
+    font-size: 16px;
+  }
+
+  .prodact-page-link,
+  .prodact-page-link2 {
+    font-size: 18px;
+  }
+
+  .features-section .features-box .features-icone img {
+    height: 45px;
+  }
+  .features-section .features-box .features-text {
+    margin: 20px 0;
+  }
+  .features-section .features-box .features-text .features-title {
+    font-size: 18px;
+  }
+  .features-section .features-box .features-text .prag3 {
+    font-size: 14px;
+  }
+
+  .benefits-section .benefits-prag {
+    font-size: 14px;
+    margin: 44px auto 36px;
+    line-height: 35px;
+  }
+
+  .overView-section .overView-prag .prag3 {
+    font-size: 14px;
+    line-height: 38px;
+  }
+
+  .benefits-section .benefits-slider .circle-arrow {
+    top: 105%;
+  }
+  .benefits-section .benefits-slider .circle-arrow.devo-left {
+    left: 35%;
+  }
+  .benefits-section .benefits-slider .circle-arrow.devo-right {
+    right: 35%;
   }
 }
