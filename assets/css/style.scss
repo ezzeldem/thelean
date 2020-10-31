@@ -46,6 +46,7 @@ $gray-color2: #636363;
 $gray-color3: #e4e4e4;
 $gray-color3: #e4e4e4;
 $orang-color: #ffe3aa;
+$orang-color2: #FFD37A;
 $pink-color: #f9cad2;
 $red-color: #ff4f5a;
 $page-color: #5c5d7c;
@@ -2139,6 +2140,10 @@ $blue3-color: #edf7ff;
     .school-management-page & {
         background-color: rgba($blueDarck-color7, 1);
     }
+    .crowd-page & {
+        background-color: rgba($orang-color2, 1);
+    }
+
 }
 
 .prodact-page-link2 {
@@ -2167,6 +2172,10 @@ $blue3-color: #edf7ff;
     .school-management-page & {
         background-color: rgba($blueDarck-color7, 1);
     }
+    .crowd-page & {
+        background-color: rgba($orang-color2, 1);
+    }
+
 }
 
 // start overView-section
@@ -2218,10 +2227,22 @@ $blue3-color: #edf7ff;
         border-top: 28px solid rgba($blueDarck-color5, 1);
 
         position: absolute;
+
+
+        .crowd-page & {
+            border-top: 28px solid  rgba($orang-color2, .8);
+        }
+
+        
+
     }
 
     .school-management-page & {
         background-color: rgba($blueDarck-color7, 1);
+    }
+
+    .crowd-page & {
+        background-color: rgba($orang-color2, 1);
     }
 
 
