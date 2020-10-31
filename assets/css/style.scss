@@ -51,6 +51,7 @@ $pink-color: #f9cad2;
 $red-color: #ff4f5a;
 $page-color: #5c5d7c;
 $blue3-color: #edf7ff;
+$gold-color: #FFCC00;
 
 // var
 
@@ -2088,6 +2089,10 @@ $blue3-color: #edf7ff;
     .school-management-page & {
         background-color: rgba($white-color, 1);
     }
+    .news-portal-page & {
+        background-image: url('../img/swwe.png');
+        @extend.back-setting;
+    }
 }
 
 // end prodact-page-intro
@@ -2144,6 +2149,12 @@ $blue3-color: #edf7ff;
         background-color: rgba($orang-color2, 1);
     }
 
+    .learning-management-page & {
+        background-color: rgba($red-color, 1);
+    }
+    .news-portal-page & {
+        background-color: rgba($gold-color, 1);
+    }
 }
 
 .prodact-page-link2 {
@@ -2163,6 +2174,7 @@ $blue3-color: #edf7ff;
     }
 
     &:hover {
+        transform: translateY(10px);
         color: rgba($blueDarck-color, 1);
     }
 
@@ -2174,6 +2186,16 @@ $blue3-color: #edf7ff;
     }
     .crowd-page & {
         background-color: rgba($orang-color2, 1);
+    }
+    .learning-management-page & {
+        background-color: rgba($red-color, 1);
+    }
+    .news-portal-page & {
+        background-color: rgba($blueDarck-color, 1);
+        &:hover{
+            color: rgba($white-color, 1);
+            box-shadow: 0 4px 8px -2px rgba($blueDarck-color, 0.6);
+        }
     }
 
 }
@@ -2232,8 +2254,10 @@ $blue3-color: #edf7ff;
         .crowd-page & {
             border-top: 28px solid  rgba($orang-color2, .8);
         }
-
         
+        .learning-management-page & {
+            border-top: 28px solid  rgba($red-color , .8);
+        }
 
     }
 
@@ -2244,7 +2268,12 @@ $blue3-color: #edf7ff;
     .crowd-page & {
         background-color: rgba($orang-color2, 1);
     }
-
+    .learning-management-page & {
+        background-color: rgba($red-color, 1);
+    }
+    .news-portal-page & {
+        background-color: rgba($blueDarck-color, 1);
+    }
 
 
 
@@ -2267,6 +2296,9 @@ $blue3-color: #edf7ff;
                 font-weight: 600;
                 margin: 0 0 20px;
                 font-weight: 600;
+                .learning-management-page & {
+                    color: rgba($red-color, 1);
+                }
             }
             .prag3 {
                 font-size: 16px;

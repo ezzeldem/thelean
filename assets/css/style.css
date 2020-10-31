@@ -316,7 +316,7 @@ html[lang="ar"] .mobile-menu .mobile-lang-box a {
   color: #636363;
 }
 
-.back-setting, .intro-section-2, .intro-section .intro-slider .intro-slider-item, .whatWeDo-section, .portfolio-section, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg, .why-us-section, .clients-section, .clints-section, .portfolioPage-section, .portfolioPage-section .portfoli-box, .products-section, .contact-sectin, .servicesPage-section, .about-us-page, .provide-section, .overView-section, .features-section, .benefits-section {
+.back-setting, .intro-section-2, .intro-section .intro-slider .intro-slider-item, .whatWeDo-section, .portfolio-section, .portfolio-section .portfolio-box .portfolio-pop-box a .portfolio-pimg, .why-us-section, .clients-section, .clints-section, .portfolioPage-section, .portfolioPage-section .portfoli-box, .products-section, .contact-sectin, .servicesPage-section, .about-us-page, .provide-section, .news-portal-page .prodact-page-sc-intro, .overView-section, .features-section, .benefits-section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1722,6 +1722,9 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 .school-management-page .prodact-page-sc-intro {
   background-color: white;
 }
+.news-portal-page .prodact-page-sc-intro {
+  background-image: url("../img/swwe.png");
+}
 
 .prodact-page-link {
   font-size: 24px;
@@ -1770,6 +1773,12 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 .crowd-page .prodact-page-link {
   background-color: #ffd37a;
 }
+.learning-management-page .prodact-page-link {
+  background-color: #ff4f5a;
+}
+.news-portal-page .prodact-page-link {
+  background-color: #ffcc00;
+}
 
 .prodact-page-link2 {
   font-size: 24px;
@@ -1786,6 +1795,7 @@ html[lang="ar"] .provide-section .provide-title-st:after {
   background-color: transparent;
 }
 .prodact-page-link2:hover {
+  transform: translateY(10px);
   color: #162f42;
 }
 .investment-page .prodact-page-link2 {
@@ -1796,6 +1806,16 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 }
 .crowd-page .prodact-page-link2 {
   background-color: #ffd37a;
+}
+.learning-management-page .prodact-page-link2 {
+  background-color: #ff4f5a;
+}
+.news-portal-page .prodact-page-link2 {
+  background-color: #162f42;
+}
+.news-portal-page .prodact-page-link2:hover {
+  color: white;
+  box-shadow: 0 4px 8px -2px rgba(22, 47, 66, 0.6);
 }
 
 .overView-section {
@@ -1844,11 +1864,20 @@ html[lang="ar"] .section-title-style:after {
 .crowd-page .section-title-style:after {
   border-top: 28px solid rgba(255, 211, 122, 0.8);
 }
+.learning-management-page .section-title-style:after {
+  border-top: 28px solid rgba(255, 79, 90, 0.8);
+}
 .school-management-page .section-title-style {
   background-color: #4dc2c2;
 }
 .crowd-page .section-title-style {
   background-color: #ffd37a;
+}
+.learning-management-page .section-title-style {
+  background-color: #ff4f5a;
+}
+.news-portal-page .section-title-style {
+  background-color: #162f42;
 }
 
 .features-section {
@@ -1863,6 +1892,9 @@ html[lang="ar"] .section-title-style:after {
   font-weight: 600;
   margin: 0 0 20px;
   font-weight: 600;
+}
+.learning-management-page .features-section .features-box .features-text .features-title {
+  color: #ff4f5a;
 }
 .features-section .features-box .features-text .prag3 {
   font-size: 16px;
