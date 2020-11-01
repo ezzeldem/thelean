@@ -1737,13 +1737,15 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 .ecommerce-page .prodact-page-sc-intro {
   background-color: #00a1c7;
 }
-.ecommerce-page .prodact-page-sc-intro .prag, .ecommerce-page .prodact-page-sc-intro .prodact-page-title {
+.ecommerce-page .prodact-page-sc-intro .prag,
+.ecommerce-page .prodact-page-sc-intro .prodact-page-title {
   color: white;
 }
 .crm-page .prodact-page-sc-intro {
   background-color: #39a1ff;
 }
-.crm-page .prodact-page-sc-intro .prag, .crm-page .prodact-page-sc-intro .prodact-page-title {
+.crm-page .prodact-page-sc-intro .prag,
+.crm-page .prodact-page-sc-intro .prodact-page-title {
   color: white;
 }
 
@@ -1751,11 +1753,14 @@ html[lang="ar"] .provide-section .provide-title-st:after {
   font-size: 24px;
   font-weight: 500;
   border-radius: 20px;
-  padding: 10px 50px 10px 30px;
+  padding: 10px 60px 10px 30px;
   color: white;
   background-color: #162f42;
   margin: 0px 30px 40px;
   position: relative;
+}
+html[lang="ar"] .prodact-page-link {
+  padding: 10px 30px 10px 60px;
 }
 .prodact-page-link:hover {
   background-color: transparent;
@@ -1767,7 +1772,7 @@ html[lang="ar"] .provide-section .provide-title-st:after {
   color: #162f42;
   right: 10px;
 }
-.prodact-page-link:hover:after html[lang="ar"] {
+html[lang="ar"] .prodact-page-link:hover:after {
   left: 10px;
 }
 .prodact-page-link::after {
@@ -1780,7 +1785,7 @@ html[lang="ar"] .provide-section .provide-title-st:after {
   top: 50%;
   transform: translateY(-50%);
 }
-.prodact-page-link::after html[lang="ar"] {
+html[lang="ar"] .prodact-page-link::after {
   right: unset;
   left: 20px;
   content: "\f104";
@@ -1902,6 +1907,8 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 html[lang="ar"] .section-title-style:after {
   left: unset;
   right: 0;
+  border-left: 0px solid transparent;
+  border-right: 25px solid transparent;
 }
 .crowd-page .section-title-style:after {
   border-top: 28px solid rgba(255, 211, 122, 0.8);

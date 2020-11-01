@@ -40,21 +40,21 @@ $blueDarck-color3: #67b1b6;
 $blueDarck-color4: #719ad0;
 $blueDarck-color5: #99caee;
 $blueDarck-color6: #084c94;
-$blueDarck-color7: #4DC2C2;
-$blueDarck-color8: #00A1C7;
-$blueDarck-color9: #76B5E3;
-$blueDarck-color10: #39A1FF;
+$blueDarck-color7: #4dc2c2;
+$blueDarck-color8: #00a1c7;
+$blueDarck-color9: #76b5e3;
+$blueDarck-color10: #39a1ff;
 $gray-color: #a4a4a4;
 $gray-color2: #636363;
 $gray-color3: #e4e4e4;
 $gray-color3: #e4e4e4;
 $orang-color: #ffe3aa;
-$orang-color2: #FFD37A;
+$orang-color2: #ffd37a;
 $pink-color: #f9cad2;
 $red-color: #ff4f5a;
 $page-color: #5c5d7c;
 $blue3-color: #edf7ff;
-$gold-color: #FFCC00;
+$gold-color: #ffcc00;
 
 // var
 
@@ -2076,13 +2076,13 @@ $gold-color: #FFCC00;
         font-weight: 600;
         margin: 0 0 40px;
         color: rgba($blueDarck-color6, 1);
-        span{
+        span {
             display: block;
-            &:nth-child(1){
-                margin: 0 15px ;
+            &:nth-child(1) {
+                margin: 0 15px;
             }
-            &:nth-child(2){
-                margin: 0 30px ;
+            &:nth-child(2) {
+                margin: 0 30px;
             }
         }
     }
@@ -2102,19 +2102,21 @@ $gold-color: #FFCC00;
         background-color: rgba($white-color, 1);
     }
     .news-portal-page & {
-        background-image: url('../img/swwe.png');
+        background-image: url("../img/swwe.png");
         @extend.back-setting;
     }
     .ecommerce-page & {
         background-color: rgba($blueDarck-color8, 1);
-    
-        .prag,.prodact-page-title {
+
+        .prag,
+        .prodact-page-title {
             color: rgba($white-color, 1);
         }
     }
     .crm-page & {
         background-color: rgba($blueDarck-color10, 1);
-        .prag,.prodact-page-title {
+        .prag,
+        .prodact-page-title {
             color: rgba($white-color, 1);
         }
     }
@@ -2126,13 +2128,15 @@ $gold-color: #FFCC00;
     font-size: 24px;
     font-weight: 500;
     border-radius: 20px;
-    padding: 10px 50px 10px 30px;
+    padding: 10px 60px 10px 30px;
     color: rgba($white-color, 1);
     @extend.trans-4;
     background-color: rgba($blueDarck-color, 1);
     margin: 0px 30px 40px;
     position: relative;
-
+    html[lang="ar"] & {
+        padding: 10px 30px 10px 60px;
+    }
     &:hover {
         background-color: transparent;
     }
@@ -2141,7 +2145,7 @@ $gold-color: #FFCC00;
         &:after {
             color: rgba($blueDarck-color, 1);
             right: 10px;
-            html[lang="ar"] {
+            html[lang="ar"] & {
                 left: 10px;
             }
         }
@@ -2157,13 +2161,13 @@ $gold-color: #FFCC00;
         right: 20px;
         top: 50%;
         transform: translateY(-50%);
-        html[lang="ar"] {
+        html[lang="ar"] & {
             right: unset;
             left: 20px;
             content: "\f104";
         }
         .ecommerce-page & {
-           color: rgba($blueDarck-color8, 1);
+            color: rgba($blueDarck-color8, 1);
         }
         .crm-page & {
             color: rgba($blueDarck-color, 1);
@@ -2189,7 +2193,7 @@ $gold-color: #FFCC00;
     .ecommerce-page & {
         background-color: rgba($white-color, 1);
         color: rgba($blueDarck-color8, 1);
-        border: 1px solid rgba($blueDarck-color8, 1);;
+        border: 1px solid rgba($blueDarck-color8, 1);
     }
     .crm-page & {
         color: rgba($blueDarck-color, 1);
@@ -2232,7 +2236,7 @@ $gold-color: #FFCC00;
     }
     .news-portal-page & {
         background-color: rgba($blueDarck-color, 1);
-        &:hover{
+        &:hover {
             color: rgba($white-color, 1);
             box-shadow: 0 4px 8px -2px rgba($blueDarck-color, 0.6);
         }
@@ -2286,6 +2290,8 @@ $gold-color: #FFCC00;
         html[lang="ar"] & {
             left: unset;
             right: 0;
+            border-left: 0px solid transparent;
+            border-right: 25px solid transparent;
         }
         z-index: -1;
         width: 0;
@@ -2296,15 +2302,13 @@ $gold-color: #FFCC00;
 
         position: absolute;
 
-
         .crowd-page & {
-            border-top: 28px solid  rgba($orang-color2, .8);
-        }
-        
-        .learning-management-page & {
-            border-top: 28px solid  rgba($red-color , .8);
+            border-top: 28px solid rgba($orang-color2, 0.8);
         }
 
+        .learning-management-page & {
+            border-top: 28px solid rgba($red-color, 0.8);
+        }
     }
 
     .school-management-page & {
@@ -2327,8 +2331,6 @@ $gold-color: #FFCC00;
     .crm-page & {
         background-color: rgba($blueDarck-color9, 1);
     }
-
-
 }
 
 // start features-section
@@ -2538,11 +2540,3 @@ $gold-color: #FFCC00;
         }
     }
 }
-
-
-
-
-
-
-
-
