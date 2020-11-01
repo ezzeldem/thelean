@@ -59,7 +59,7 @@ $(document).ready(function () {
         nextArrow: "<div class='circle-arrow devo-left'><i class='fas fa-angle-left'></i></div>",
         autoplaySpeed: 2000,
         rtl: dir_lang,
-        autoplay: false,
+        autoplay: true,
         dots: false,
         arrows: true,
         responsive: [

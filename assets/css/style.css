@@ -1709,6 +1709,15 @@ html[lang="ar"] .provide-section .provide-title-st:after {
   margin: 0 0 40px;
   color: #084c94;
 }
+.prodact-page-sc-intro .prodact-page-title span {
+  display: block;
+}
+.prodact-page-sc-intro .prodact-page-title span:nth-child(1) {
+  margin: 0 15px;
+}
+.prodact-page-sc-intro .prodact-page-title span:nth-child(2) {
+  margin: 0 30px;
+}
 .prodact-page-sc-intro .prag {
   color: #084c94;
   width: 80%;
@@ -1729,6 +1738,12 @@ html[lang="ar"] .provide-section .provide-title-st:after {
   background-color: #00a1c7;
 }
 .ecommerce-page .prodact-page-sc-intro .prag, .ecommerce-page .prodact-page-sc-intro .prodact-page-title {
+  color: white;
+}
+.crm-page .prodact-page-sc-intro {
+  background-color: #39a1ff;
+}
+.crm-page .prodact-page-sc-intro .prag, .crm-page .prodact-page-sc-intro .prodact-page-title {
   color: white;
 }
 
@@ -1773,6 +1788,9 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 .ecommerce-page .prodact-page-link::after {
   color: #00a1c7;
 }
+.crm-page .prodact-page-link::after {
+  color: #162f42;
+}
 .investment-page .prodact-page-link {
   background-color: #719ad0;
 }
@@ -1792,6 +1810,10 @@ html[lang="ar"] .provide-section .provide-title-st:after {
   background-color: white;
   color: #00a1c7;
   border: 1px solid #00a1c7;
+}
+.crm-page .prodact-page-link {
+  color: #162f42;
+  background-color: white;
 }
 
 .prodact-page-link2 {
@@ -1833,6 +1855,9 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 }
 .ecommerce-page .prodact-page-link2 {
   background-color: #00a1c7;
+}
+.crm-page .prodact-page-link2 {
+  background-color: #76b5e3;
 }
 
 .overView-section {
@@ -1898,6 +1923,9 @@ html[lang="ar"] .section-title-style:after {
 }
 .ecommerce-page .section-title-style {
   background-color: #00a1c7;
+}
+.crm-page .section-title-style {
+  background-color: #76b5e3;
 }
 
 .features-section {

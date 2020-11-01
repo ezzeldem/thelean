@@ -42,6 +42,8 @@ $blueDarck-color5: #99caee;
 $blueDarck-color6: #084c94;
 $blueDarck-color7: #4DC2C2;
 $blueDarck-color8: #00A1C7;
+$blueDarck-color9: #76B5E3;
+$blueDarck-color10: #39A1FF;
 $gray-color: #a4a4a4;
 $gray-color2: #636363;
 $gray-color3: #e4e4e4;
@@ -2074,6 +2076,15 @@ $gold-color: #FFCC00;
         font-weight: 600;
         margin: 0 0 40px;
         color: rgba($blueDarck-color6, 1);
+        span{
+            display: block;
+            &:nth-child(1){
+                margin: 0 15px ;
+            }
+            &:nth-child(2){
+                margin: 0 30px ;
+            }
+        }
     }
 
     .prag {
@@ -2097,6 +2108,12 @@ $gold-color: #FFCC00;
     .ecommerce-page & {
         background-color: rgba($blueDarck-color8, 1);
     
+        .prag,.prodact-page-title {
+            color: rgba($white-color, 1);
+        }
+    }
+    .crm-page & {
+        background-color: rgba($blueDarck-color10, 1);
         .prag,.prodact-page-title {
             color: rgba($white-color, 1);
         }
@@ -2148,6 +2165,9 @@ $gold-color: #FFCC00;
         .ecommerce-page & {
            color: rgba($blueDarck-color8, 1);
         }
+        .crm-page & {
+            color: rgba($blueDarck-color, 1);
+        }
     }
 
     .investment-page & {
@@ -2170,6 +2190,10 @@ $gold-color: #FFCC00;
         background-color: rgba($white-color, 1);
         color: rgba($blueDarck-color8, 1);
         border: 1px solid rgba($blueDarck-color8, 1);;
+    }
+    .crm-page & {
+        color: rgba($blueDarck-color, 1);
+        background-color: rgba($white-color, 1);
     }
 }
 
@@ -2217,7 +2241,9 @@ $gold-color: #FFCC00;
         background-color: rgba($blueDarck-color8, 1);
     }
 
-
+    .crm-page & {
+        background-color: rgba($blueDarck-color9, 1);
+    }
 }
 
 // start overView-section
@@ -2298,7 +2324,9 @@ $gold-color: #FFCC00;
         background-color: rgba($blueDarck-color8, 1);
     }
 
-
+    .crm-page & {
+        background-color: rgba($blueDarck-color9, 1);
+    }
 
 
 }
