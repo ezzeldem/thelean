@@ -41,6 +41,7 @@ $blueDarck-color4: #719ad0;
 $blueDarck-color5: #99caee;
 $blueDarck-color6: #084c94;
 $blueDarck-color7: #4DC2C2;
+$blueDarck-color8: #00A1C7;
 $gray-color: #a4a4a4;
 $gray-color2: #636363;
 $gray-color3: #e4e4e4;
@@ -2093,6 +2094,13 @@ $gold-color: #FFCC00;
         background-image: url('../img/swwe.png');
         @extend.back-setting;
     }
+    .ecommerce-page & {
+        background-color: rgba($blueDarck-color8, 1);
+    
+        .prag,.prodact-page-title {
+            color: rgba($white-color, 1);
+        }
+    }
 }
 
 // end prodact-page-intro
@@ -2137,6 +2145,9 @@ $gold-color: #FFCC00;
             left: 20px;
             content: "\f104";
         }
+        .ecommerce-page & {
+           color: rgba($blueDarck-color8, 1);
+        }
     }
 
     .investment-page & {
@@ -2154,6 +2165,11 @@ $gold-color: #FFCC00;
     }
     .news-portal-page & {
         background-color: rgba($gold-color, 1);
+    }
+    .ecommerce-page & {
+        background-color: rgba($white-color, 1);
+        color: rgba($blueDarck-color8, 1);
+        border: 1px solid rgba($blueDarck-color8, 1);;
     }
 }
 
@@ -2197,6 +2213,10 @@ $gold-color: #FFCC00;
             box-shadow: 0 4px 8px -2px rgba($blueDarck-color, 0.6);
         }
     }
+    .ecommerce-page & {
+        background-color: rgba($blueDarck-color8, 1);
+    }
+
 
 }
 
@@ -2274,7 +2294,9 @@ $gold-color: #FFCC00;
     .news-portal-page & {
         background-color: rgba($blueDarck-color, 1);
     }
-
+    .ecommerce-page & {
+        background-color: rgba($blueDarck-color8, 1);
+    }
 
 
 
@@ -2488,3 +2510,11 @@ $gold-color: #FFCC00;
         }
     }
 }
+
+
+
+
+
+
+
+

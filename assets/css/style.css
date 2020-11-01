@@ -1725,6 +1725,12 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 .news-portal-page .prodact-page-sc-intro {
   background-image: url("../img/swwe.png");
 }
+.ecommerce-page .prodact-page-sc-intro {
+  background-color: #00a1c7;
+}
+.ecommerce-page .prodact-page-sc-intro .prag, .ecommerce-page .prodact-page-sc-intro .prodact-page-title {
+  color: white;
+}
 
 .prodact-page-link {
   font-size: 24px;
@@ -1764,6 +1770,9 @@ html[lang="ar"] .provide-section .provide-title-st:after {
   left: 20px;
   content: "\f104";
 }
+.ecommerce-page .prodact-page-link::after {
+  color: #00a1c7;
+}
 .investment-page .prodact-page-link {
   background-color: #719ad0;
 }
@@ -1778,6 +1787,11 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 }
 .news-portal-page .prodact-page-link {
   background-color: #ffcc00;
+}
+.ecommerce-page .prodact-page-link {
+  background-color: white;
+  color: #00a1c7;
+  border: 1px solid #00a1c7;
 }
 
 .prodact-page-link2 {
@@ -1816,6 +1830,9 @@ html[lang="ar"] .provide-section .provide-title-st:after {
 .news-portal-page .prodact-page-link2:hover {
   color: white;
   box-shadow: 0 4px 8px -2px rgba(22, 47, 66, 0.6);
+}
+.ecommerce-page .prodact-page-link2 {
+  background-color: #00a1c7;
 }
 
 .overView-section {
@@ -1878,6 +1895,9 @@ html[lang="ar"] .section-title-style:after {
 }
 .news-portal-page .section-title-style {
   background-color: #162f42;
+}
+.ecommerce-page .section-title-style {
+  background-color: #00a1c7;
 }
 
 .features-section {
