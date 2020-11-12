@@ -2097,3 +2097,14 @@ html[lang="ar"] .section-title-style:after {
     right: 35%;
   }
 }
+.intro-slider-item {
+  position: relative;
+}
+.intro-slider-item .myVideo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
